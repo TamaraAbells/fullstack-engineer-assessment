@@ -1,0 +1,13 @@
+{
+  "require": {
+    "php": "^7.4|^8.0",
+    "ext-pdo": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "./"
+    ],
+    "files": ["Core/helpers.php"]
+  }
+}
